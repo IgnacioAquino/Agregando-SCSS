@@ -1,0 +1,41 @@
+/*HEADER*/
+
+
+.title{
+    color: $color-title;
+    font-size: $font-sizetitle;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-style: oblique;
+    font-family: rale;
+    font-weight: bold;
+    margin-left: 700px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    
+
+}
+
+
+
+.navbar-nav{
+    margin-left: 1250px;
+    
+    }
+
+
+nav a{
+    
+    font-size: $font-sizenav;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-right: 40px;
+    font-family: rale;
+}
+
+
+@font-face {
+    font-family: rale;
+    src: url(fonts/Raleway-ExtraLight.ttf);
+}
+

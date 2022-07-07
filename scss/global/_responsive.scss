@@ -1,0 +1,73 @@
+/*RESPONSIVE*/
+
+@media screen and (max-width: 576px){
+
+    .promo1, .promo2{
+        margin-left: 120px;
+    }
+
+    
+    .title{
+        color: $color-title;
+        font-size: $font-sizetitle;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-style: oblique;
+        font-family: rale;
+        font-weight: bold;
+        margin-left: 70px;
+        
+    
+    }
+
+    .navbar-nav{
+        margin-left: 0px;
+        
+    }
+
+    .nav-item{
+        margin-top: 0px;
+        
+        
+        
+    }
+
+    .nos1, .nos2, .nos3{
+        margin-left: 50px;
+        margin-top: 200px;
+        height: 300px;
+        width: 350px;
+
+    }
+
+    .piz1, .piz2, .piz3{
+        margin-left: 50px;
+        margin-top: 200px;
+        height: 300px;
+        width: 350px;
+
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .promo1, .promo2{
+        margin-left: 120px;
+    }
+
+
+
+    
+}
+
+@media screen and (max-width: 1300px){
+
+    .np, .mz, .sp{
+        margin-left: 50px;
+    }
+
+    
+}
+
+
+

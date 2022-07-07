@@ -1,0 +1,33 @@
+/*ÄNIMACION*/
+
+.title{
+    animation-name: animaciontitle;
+    animation-duration: 2s;
+    
+}
+
+@keyframes animaciontitle {
+    10%{ 
+        transform: scale(0.3);
+    }
+    
+    
+    100%{
+        transform: scale(1);
+    }
+}
+
+
+
+@keyframes cambiarcolor {
+    0%{
+        background-color: pink;
+    }
+
+    50%{
+        background-color: brown;
+    }
+    100%{
+        background-color: red;
+    }
+}
