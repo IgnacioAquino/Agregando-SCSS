@@ -11,8 +11,6 @@
   } 
 
   .box_uno{
-    @include container(200px, 100px, #33D374)
+    @include container(550px, 220px, #8f6a33)
   }
-  .box_dos{
-    @include container(150px, 50px, #108EFF)
-  }
+  

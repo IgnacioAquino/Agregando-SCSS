@@ -17,17 +17,11 @@
 		<link rel="stylesheet" href="../css/estilos.css">
 	</head>
 
-
-
 <body>
-
-    <header>
+	<header>
 		<h1 class="title col-12">QUIERO MAS PIZZA</h1>
-	  </header>
+	</header>
 	
-
-	  
-
 	  <nav class="navbar navbar-expand-lg navbar-light col-12 bg-dark ">
 		<a class="navbar-brand"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" 
@@ -39,19 +33,19 @@
 		<div class="collapse navbar-collapse " id="navbarSupportedContent">
 		  <ul class="navbar-nav mr-auto ">
 			<li class="nav-item active ">
-			  <a class="nav-link text-white " href="../index.html">INICIO <span class="sr-only">(current)</span></a>
+			  <a class="nav-link text-white font-weight-bold " href="../index.html">INICIO <span class="sr-only">(current)</span></a>
 			</li>
 			<li class="nav-item">
-			  <a class="nav-link text-white" href="Pizzas.html">PIZZAS</a>
+			  <a class="nav-link text-white font-weight-bold" href="Pizzas.html">PIZZAS</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link text-white" href="empanadas.html">EMPANADAS</a>
+				<a class="nav-link text-white font-weight-bold" href="empanadas.html">EMPANADAS</a>
 			  </li>
 			<li class="nav-item">
-				<a class="nav-link text-white" href="mila.html">MINUTAS</a>
+				<a class="nav-link text-white font-weight-bold" href="mila.html">MINUTAS</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link text-white" href="contacto.html">CONTACTO</a>
+				<a class="nav-link text-white font-weight-bold" href="contacto.html">CONTACTO</a>
 			  </li>
 		  </ul>
 		</div>
@@ -59,46 +53,43 @@
 
 	<h2 class="text-black text-center mt-5 font-weight-bold">CONTACTANOS</h2>
 
-    <section class="encuesta">
-		<div class="cuadro container-fluid col-12 col-sm-12 col-md-12  p-4">
-			<form class="border col-4 bg-secondary text-white p-2" action="#">
-				<label for="nombre">Nombres:</label>
-				<input type="text" placeholder="Nombres">
-				<label for="apellido">Apellido:</label>
-				<input type="text" placeholder="Apellido">
-				<br>
-				<br>
-				<label for="email">Email:
-					<input type="email" placeholder="ejemplo@hotmail.com" name="email"></label>
-				<br>
-				<br>
-				<label for="En que podemos ayudarte?"> En que podemos ayudarte?
-				<br>
-				<textarea placeholder="Escribe aqui.."></textarea></label> 
-				<br>
-				<br>
-				<label for="nombre">Celular:</label>
-				<input type="text" placeholder="(011)..">
-				
-				<p>Sexo</p>
-				<select name="sexo" id="sexo"> 
-					<option value="M">M</option>
-					<option value="F">F</option>
-					<option value="Otro">Otro</option>
-				</select>
-				<br>
-				<br>
-				
-				<div>Queres recibir info sobre nosotros?
-				<input type="checkbox" name="acepta" value="1">
+    <div class="container card-0 justify-content-center " dir="rtl">
+        
+		<div class="row justify-content-center round">
+			<div class="col-lg-10 col-md-12 ">
+				<div class="card shadow-lg card-1">
+					<div class="card-body inner-card">
+						<div class="row justify-content-center">
+							<div class="col-lg-5 col-md-6 col-sm-12">
+								<div class="form-group"><input type="text" class="form-control" id="first-name" placeholder="Apellido"> </div>
+								<div class="form-group "><input type="tel" class="form-control" id="Mobile-Number" placeholder="ejemplo@hotmail.com"> </div>
+							</div>
+							<div class="col-lg-5 col-md-6 col-sm-12">
+								<div class="form-group"><input type="email" class="form-control" id="Company-Name" placeholder="Nombre"> </div>
+								<div class="form-group" >
+								   <input type="text" name="City" list="CityList" placeholder="Sucursal">
+								   <datalist id="CityList">
+								   <option value="Berazategui">Berazategui</option>  
+								   <option value="Quilmes">Quilmes</option>
+								   </datalist>
+								</div>
+							</div>
+						</div>
+						<div class="row justify-content-center">
+							<div class="col-md-12 col-lg-10 col-12">
+								<div class="form-group text-right"> <label class="text-right" for="exampleFormControlTextarea2"></label> <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="5
+								">Escribe aqui tu consulta</textarea></div>
+								<div class="row justify-content-end mb-5">
+									<div class="col-lg-4 col-auto text-center"><button type="button" class="btn btn-block"><small class="font-weight-bold">Enviar</small></button> </div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
-				<br>
-				<input type="submit" value="ENVIAR">
-				<input type="reset" value="RESETEAR">
-			</form>
+			</div>
 		</div>
-			
-	</section>
+	  
+	  </div>
                
 	<div class="footer">
 		<footer id="pipon">
@@ -109,7 +100,5 @@
 			</div>
 		</footer>
 	</div>
-    
-
 </body>
 </html>
